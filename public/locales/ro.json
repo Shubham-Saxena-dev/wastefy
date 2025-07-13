@@ -1,0 +1,222 @@
+
+{
+    "app": {
+        "title": "Wastefy"
+    },
+    "nav": {
+        "home": "Acasă",
+        "pickup": "Colectare",
+        "findNearby": "În Apropiere",
+        "learn": "Învață",
+        "settings": "Setări"
+    },
+    "binGuide": {
+        "title": "Ce arunci?",
+        "subtitle": "Selectează o categorie sau caută un articol.",
+        "searchPlaceholder": "Caută un articol (ex. 'cutie de lapte')",
+        "searching": "Se caută...",
+        "searchResults": "Rezultatul(ele) căutării",
+        "noResults": "Niciun rezultat găsit pentru \"{{searchTerm}}\"",
+        "noResultsHint": "Verifică ortografia sau încearcă un alt termen.",
+        "backToCategories": "Înapoi la categorii",
+        "disposeIn": "Aruncă în",
+        "importantNotes": "Note importante",
+        "collectionType": "Tip de colectare",
+        "findFacilities": "Găsește puncte de colectare în apropiere pentru",
+        "findFacilitiesButton": "Găsește puncte apropiate",
+        "homeCollection": "Colectat de la reședința dvs. (casă/apartament).",
+        "endOfList": "Ați ajuns la sfârșitul listei."
+    },
+    "scanner": {
+        "error": {
+            "permission": "Permisiunea pentru cameră a fost refuzată. Activați-o în setările browserului pentru a utiliza scanerul.",
+            "noCamera": "Nu s-a găsit nicio cameră potrivită pe dispozitivul dvs.",
+            "unidentified": "Articolul nu a putut fi identificat clar. Vă rugăm să încercați din nou cu o imagine mai clară sau să căutați manual.",
+            "title": "Analiza a eșuat",
+            "cameraTitle": "Eroare cameră"
+        },
+        "analyzing": "Se analizează...",
+        "retry": "Încearcă din nou",
+        "scanAnother": "Scanează alt articol",
+        "capture": "Capturează",
+        "close": "Închide"
+    },
+    "pickup": {
+        "title": "Găsește Servicii de Colectare",
+        "useMyLocation": "Folosește locația mea actuală",
+        "or": "SAU",
+        "searchManually": "Caută o adresă manual",
+        "searchPlaceholder": "ex. Musterstraße 1, 10115 Berlin",
+        "findServices": "Găsește Servicii",
+        "searching": "Se caută...",
+        "availableServices": "Servicii disponibile pentru:",
+        "findOnMap": "Găsește pe hartă",
+        "contact": "Contact",
+        "error": {
+            "noGeolocation": "Geolocația nu este suportată de browserul dvs.",
+            "addressFromLocation": "Nu s-a putut determina adresa din locația dvs.",
+            "getLocation": "Nu s-a putut obține locația dvs.",
+            "allowLocation": "Vă rugăm să permiteți accesul la locație pentru a utiliza această funcție.",
+            "selectAddress": "Vă rugăm să selectați o adresă validă din sugestii."
+        }
+    },
+    "knowledge": {
+        "title": "Învață și Descoperă",
+        "back": "Înapoi la Învață",
+        "explore": "Explorează Categoria"
+    },
+    "settings": {
+        "title": "Setări",
+        "language": {
+            "title": "Limbă"
+        },
+        "theme": "Temă",
+        "sound": {
+            "title": "Efecte sonore"
+        }
+    },
+    "contact": {
+        "title": "Contact și Feedback",
+        "subtitle": "Ai o sugestie sau ai găsit o problemă? Anunță-ne!",
+        "name": "Nume",
+        "email": "Adresă de email",
+        "message": "Mesaj",
+        "sendButton": "Trimite Feedback",
+        "sending": "Se trimite...",
+        "emailSubject": "Feedback pentru Wastefy",
+        "success": {
+            "title": "Mulțumim!",
+            "message": "Clientul dvs. de email a fost deschis pentru a trimite feedback-ul."
+        },
+        "notConfigured": {
+            "title": "Funcție indisponibilă",
+            "message": "Funcția de contact nu este configurată pentru această versiune a aplicației."
+        }
+    },
+    "disclaimer": {
+        "content": "Informațiile furnizate de această aplicație sunt doar pentru îndrumare generală. Deși ne străduim să menținem informațiile actualizate și corecte, nu facem nicio declarație sau garanție de niciun fel, expresă sau implicită, cu privire la completitudinea, acuratețea sau fiabilitatea. Orice încredere pe care o acordați acestor informații este, prin urmare, strict pe riscul dumneavoastră. Creatorul nu este responsabil pentru nicio eliminare incorectă a deșeurilor. Prin utilizarea acestei aplicații, sunteți de acord cu acești termeni."
+    },
+    "disclaimerModal": {
+        "title": "Declinarea Responsabilității și Termeni de Utilizare",
+        "acceptButton": "Accept și Continui"
+    },
+    "waste_categories": {
+        "kitchen_food": "Bucătărie și Mâncare",
+        "paper_packaging": "Hârtie și Ambalaje",
+        "household_bathroom": "Gospodărie și Baie",
+        "special_electronic": "Deșeuri Speciale și Electronice",
+        "garden_outdoors": "Grădină și Exterior",
+        "glass_bulky": "Sticlă și Voluminoase"
+    },
+    "waste_items": {
+        "Bucătărie și Mâncare": [
+            { "name": "Coji de fructe și legume", "bin": "Biotonne", "recyclable": true, "keywords": ["fructe", "legume", "coji"], "visual": "bio" },
+            { "name": "Zaț de cafea și pliculețe de ceai", "bin": "Biotonne", "recyclable": true, "keywords": ["cafea", "ceai"], "visual": "bio" },
+            { "name": "Coji de ouă", "bin": "Biotonne", "recyclable": true, "keywords": ["ou", "coajă"], "visual": "bio" },
+            { "name": "Resturi de mâncare gătită", "bin": "Biotonne", "recyclable": true, "notes": "Împachetați în ziar pentru a absorbi umezeala.", "keywords": ["resturi", "mâncare gătită"], "visual": "bio" },
+            { "name": "Oase de carne și pește", "bin": "Biotonne", "recyclable": true, "notes": "Împachetați în ziar pentru a reduce mirosurile.", "keywords": ["carne", "pește", "oase"], "visual": "bio" },
+            { "name": "Pâine uscată", "bin": "Biotonne", "recyclable": true, "keywords": ["pâine", "uscată"], "visual": "bio" },
+            { "name": "Cutie de pizza grasă", "bin": "Restmüll", "recyclable": false, "notes": "Grăsimea contaminează reciclarea hârtiei. Părțile curate pot merge la hârtie.", "keywords": ["cutie pizza", "grasă"], "visual": "general" },
+            { "name": "Ulei de gătit și grăsimi (solide)", "bin": "Restmüll", "recyclable": false, "notes": "Solidificați și sigilați într-un recipient înainte de a arunca. Nu turnați în scurgere.", "keywords": ["ulei", "grăsime"], "visual": "general" },
+            { "name": "Veselă spartă din ceramică", "bin": "Restmüll", "recyclable": false, "notes": "Aceasta nu este sticlă reciclabilă.", "keywords": ["farfurie", "ceașcă", "ceramică", "spartă"], "visual": "general" },
+            { "name": "Pahare și recipiente de iaurt", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Asigurați-vă că este gol. Clătirea ajută la prevenirea mirosurilor.", "keywords": ["iaurt", "pahar", "plastic"], "visual": "packaging" },
+            { "name": "Conserve de metal", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["conservă", "metal", "ton", "supă"], "notes": "Golită și, de preferință, clătită.", "visual": "packaging" },
+            { "name": "Folie și tăvi de aluminiu (curate)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Trebuie să fie curată de resturi alimentare. Mototoliți-o.", "keywords": ["aluminiu", "folie", "tavă"], "visual": "packaging" },
+            { "name": "Cutii de băuturi (Tetra Pak)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["tetrapak", "cutie lapte", "cutie suc"], "visual": "packaging" },
+            { "name": "Sticle de plastic (fără garanție)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Pentru ulei, ketchup etc. Sticlele cu garanție (Pfand) trebuie returnate la magazin.", "keywords": ["sticlă plastic", "ketchup", "ulei"], "visual": "packaging" }
+        ],
+        "Hârtie și Ambalaje": [
+            { "name": "Ziare și reviste", "bin": "Papiertonne", "recyclable": true, "keywords": ["ziar", "revistă"], "visual": "paper" },
+            { "name": "Cutii de carton", "bin": "Papiertonne", "recyclable": true, "keywords": ["ambalaj", "cutie", "carton"], "notes": "Turtiți cutiile pentru a economisi spațiu.", "visual": "paper" },
+            { "name": "Hârtie de birou și caiete", "bin": "Papiertonne", "recyclable": true, "keywords": ["hârtie birou", "caiet"], "notes": "Îndepărtați spiralele de metal sau plastic.", "visual": "paper" },
+            { "name": "Plicuri (cu/fără fereastră)", "bin": "Papiertonne", "recyclable": true, "notes": "Nu este necesar să îndepărtați fereastra mică de plastic.", "keywords": ["plic", "scrisoare"], "visual": "paper" },
+            { "name": "Ambalaje din polistiren (curate)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["polistiren", "ambalaj"], "visual": "packaging" },
+            { "name": "Folie alimentară și folie cu bule", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["folie", "folie cu bule"], "visual": "packaging" },
+            { "name": "Chitanțe de hârtie termică", "bin": "Restmüll", "recyclable": false, "notes": "Hârtia acoperită nu ar trebui reciclată cu hârtia normală.", "keywords": ["chitanță", "hârtie termică"], "visual": "general" },
+            { "name": "Hârtie de copt", "bin": "Restmüll", "recyclable": false, "keywords": ["hârtie de copt"], "visual": "general" }
+        ],
+        "Gospodărie și Baie": [
+            { "name": "Sticle goale de șampon și gel de duș", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["șampon", "gel de duș", "sticlă"], "visual": "packaging" },
+            { "name": "Tuburi goale de pastă de dinți", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["pastă de dinți", "tub"], "visual": "packaging" },
+            { "name": "Scutece", "bin": "Restmüll", "recyclable": false, "keywords": ["scutec", "bebeluș"], "visual": "general" },
+            { "name": "Șervețele umede", "bin": "Restmüll", "recyclable": false, "notes": "Conțin plastic și nu trebuie aruncate în toaletă.", "keywords": ["șervețel", "umed"], "visual": "general" },
+            { "name": "Periuțe de dinți (manuale)", "bin": "Restmüll", "recyclable": false, "keywords": ["periuță de dinți"], "visual": "general" },
+            { "name": "Aparate de ras de unică folosință", "bin": "Restmüll", "recyclable": false, "notes": "Pentru siguranță, împachetați înainte de a arunca.", "keywords": ["aparat de ras"], "visual": "general" }
+        ],
+        "Deșeuri Speciale și Electronice": [
+            { "name": "Baterii", "bin": "Elektroschrott", "recyclable": true, "notes": "Returnați la cutiile de colectare din magazine sau la centrele de reciclare. NU aruncați la gunoiul menajer.", "keywords": ["baterie"], "visual": "electronics" },
+            { "name": "Becuri economice și LED", "bin": "Elektroschrott", "recyclable": true, "notes": "Conțin componente electronice și trebuie eliminate ca DEEE.", "keywords": ["bec", "led", "cfl"], "visual": "electronics" },
+            { "name": "Telefoane mobile și cabluri", "bin": "Elektroschrott", "recyclable": true, "keywords": ["telefon", "cablu", "încărcător"], "visual": "electronics" },
+            { "name": "Aparate electrocasnice mici", "bin": "Elektroschrott", "recyclable": true, "notes": "Prăjitoare de pâine, ceainice, uscătoare de păr etc.", "keywords": ["aparat", "prăjitor", "uscător"], "visual": "electronics" },
+            { "name": "Medicamente expirate", "bin": "Elektroschrott", "recyclable": false, "notes": "Considerate deșeuri periculoase. Returnați la o farmacie sau aruncați la un punct de colectare a deșeurilor periculoase. Nu aruncați în toaletă!", "keywords": ["medicament", "pastilă", "sirop"], "visual": "electronics" }
+        ],
+        "Grădină și Exterior": [
+            { "name": "Iarbă tăiată și frunze", "bin": "Biotonne", "recyclable": true, "keywords": ["iarbă", "frunze", "tăieturi"], "visual": "bio" },
+            { "name": "Crengi și ramuri (mici)", "bin": "Biotonne", "recyclable": true, "notes": "Nu trebuie să fie mai groase decât o încheietură.", "keywords": ["crengi", "tăiere"], "visual": "bio" },
+            { "name": "Ghivece de flori din plastic (de la cumpărare)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["ghiveci", "floare", "plastic"], "visual": "packaging" },
+            { "name": "Ghivece de lut sparte", "bin": "Restmüll", "recyclable": false, "notes": "În cantități mari, eliminați ca moloz la un centru de reciclare.", "keywords": ["teracotă", "ghiveci", "spart"], "visual": "general" }
+        ],
+        "Sticlă și Voluminoase": [
+            { "name": "Sticle și borcane de sticlă", "bin": "Glascontainer", "recyclable": true, "notes": "Sortați după culoare (alb, verde, maro). Capacele merg în Sacul Galben. Sticla albastră merge cu cea verde.", "keywords": ["sticlă", "borcan"], "visual": "glass" },
+            { "name": "Mobilier (scaune, mese, dulapuri)", "bin": "Sperrmüll", "recyclable": true, "notes": "Organizați o colectare cu serviciul local de eliminare sau duceți la un centru de reciclare.", "keywords": ["mobilier", "scaun", "masă", "dulap"], "visual": "bulky" },
+            { "name": "Saltele și covoare", "bin": "Sperrmüll", "recyclable": true, "keywords": ["saltea", "covor"], "visual": "bulky" },
+            { "name": "Aparate electrocasnice mari", "bin": "Sperrmüll", "recyclable": true, "notes": "Acestea sunt DEEE, dar adesea colectate ca deșeuri voluminoase. Verificați regulile locale.", "keywords": ["frigider", "mașină de spălat", "cuptor"], "visual": "electronics" },
+            { "name": "Veselă termorezistentă (Pyrex)", "bin": "Restmüll", "recyclable": false, "notes": "Are un punct de topire diferit de cel al sticlei de ambalaj.", "keywords": ["pyrex", "vas de copt"], "visual": "general" }
+        ]
+    },
+    "knowledge_base": [
+        {
+            "title": "Găsiți puncte de predare în apropiere",
+            "image": "locations",
+            "subCategories": [
+              {
+                "title": "Găsiți locații",
+                "type": "location",
+                "articles": [
+                  { "title": "Găsește containere pentru sticlă", "iconKey": "Trash2", "content": ["Pentru sticle și borcane fără garanție, sortate pe culori."], "mapQuery": "Container sticlă în apropiere" },
+                  { "title": "Găsește puncte de colectare DEEE", "iconKey": "Zap", "content": ["Pentru electronice vechi, baterii și electrocasnice."], "mapQuery": "Centru de colectare DEEE în apropiere" },
+                  { "title": "Găsește containere pentru haine", "iconKey": "ShoppingBag", "content": ["Pentru haine și încălțăminte purtabile."], "mapQuery": "Container haine în apropiere" },
+                  { "title": "Găsește puncte de returnare a garanției", "iconKey": "Home", "content": ["Returnează sticlele cu garanție (sistemul Pfand) la majoritatea supermarketurilor."], "mapQuery": "Supermarket cu automat de garanție în apropiere" }
+                ]
+              }
+            ]
+        },
+        {
+            "title": "Ghiduri de eliminare a deșeurilor",
+            "image": "bins",
+            "subCategories": [
+                {
+                    "title": "Deșeuri speciale",
+                    "type": "accordion",
+                    "articles": [
+                        { "title": "Deșeuri electronice", "iconKey": "Zap", "content": ["Orice dispozitiv cu priză sau baterie este un deșeu electronic.", "Returnați-le la magazinele de electronice sau la un centru de reciclare (Wertstoffhof).", "Aceasta include telefoane, laptopuri, ceainice și chiar periuțe de dinți electrice."] },
+                        { "title": "Deșeuri periculoase (Schadstoffe)", "iconKey": "FlaskConical", "content": ["Include vopsea lichidă, substanțe chimice, pesticide și termometre cu mercur.", "Trebuie duse la un vehicul de colectare a deșeurilor periculoase (Schadstoffmobil) sau la un centru de reciclare.", "Nu le turnați niciodată în scurgere și nu le puneți în coșurile de gunoi menajer."] },
+                        { "title": "Eliminarea medicamentelor", "iconKey": "Stethoscope", "content": ["Pastilele și lichidele vechi sunt deșeuri periculoase.", "Returnați-le la o farmacie pentru eliminare sigură.", "Nu le aruncați în toaletă."] },
+                        { "title": "Deșeuri voluminoase (Sperrmüll)", "iconKey": "Sofa", "content": ["Articole prea mari pentru coșul dvs., cum ar fi mobilier, covoare și saltele.", "Stabiliți o colectare cu municipalitatea locală sau duceți-le la un centru de reciclare.", "Deșeurile electronice și resturile de construcții sunt adesea gestionate separat."] }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sfaturi și informații",
+            "image": "sustainability",
+            "subCategories": [
+                {
+                    "title": "Sfaturi pentru reducerea deșeurilor",
+                    "type": "accordion",
+                    "articles": [
+                      { "title": "Reduceți și reutilizați", "iconKey": "Recycle", "content": ["Folosiți pungi de cumpărături, căni de cafea și sticle de apă reutilizabile.", "Cumpărați produse cu ambalaj minim.", "Reparați articolele în loc să le înlocuiți."] }
+                    ]
+                },
+                {
+                    "title": "Informații despre reciclare în Germania",
+                    "type": "accordion",
+                    "articles": [
+                        { "title": "Punctul Verde (Der Grüne Punkt)", "iconKey": "Package", "content": ["Acest simbol indică faptul că producătorul a contribuit la costul reciclării ambalajelor.", "Nu înseamnă neapărat că articolul este reciclabil, dar majoritatea articolelor cu acest simbol sunt."] },
+                        { "title": "Sistemul Pfand", "iconKey": "Droplets", "content": ["Germania are un sistem de returnare a garanției (Pfand) foarte eficient pentru recipientele de băuturi.", "Returnați-le la un automat de returnare dintr-un supermarket pentru a vă primi garanția înapoi."] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

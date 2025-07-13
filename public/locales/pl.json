@@ -1,0 +1,225 @@
+
+{
+    "app": {
+        "title": "Wastefy"
+    },
+    "nav": {
+        "home": "Start",
+        "pickup": "Odbiór",
+        "findNearby": "W pobliżu",
+        "learn": "Nauka",
+        "settings": "Ustawienia"
+    },
+    "binGuide": {
+        "title": "Co wyrzucasz?",
+        "subtitle": "Wybierz kategorię lub wyszukaj przedmiot.",
+        "searchPlaceholder": "Wyszukaj przedmiot (np. 'karton po mleku')",
+        "searching": "Wyszukiwanie...",
+        "searchResults": "Wynik(i) wyszukiwania",
+        "noResults": "Nie znaleziono wyników dla \"{{searchTerm}}\"",
+        "noResultsHint": "Sprawdź pisownię lub użyj innego terminu.",
+        "backToCategories": "Powrót do kategorii",
+        "disposeIn": "Wyrzuć do",
+        "importantNotes": "Ważne uwagi",
+        "collectionType": "Rodzaj zbiórki",
+        "findFacilities": "Znajdź pobliskie punkty dla",
+        "findFacilitiesButton": "Znajdź pobliskie punkty",
+        "homeCollection": "Odbierane z miejsca zamieszkania (dom/mieszkanie).",
+        "endOfList": "To już koniec listy."
+    },
+    "scanner": {
+        "error": {
+            "permission": "Odmowa dostępu do kamery. Włącz go w ustawieniach przeglądarki, aby użyć skanera.",
+            "noCamera": "Nie znaleziono odpowiedniej kamery na Twoim urządzeniu.",
+            "unidentified": "Nie udało się jednoznacznie zidentyfikować przedmiotu. Spróbuj ponownie z wyraźniejszym zdjęciem lub wyszukaj ręcznie.",
+            "title": "Analiza nie powiodła się",
+            "cameraTitle": "Błąd kamery"
+        },
+        "analyzing": "Analizowanie...",
+        "retry": "Spróbuj ponownie",
+        "scanAnother": "Zeskanuj inny przedmiot",
+        "capture": "Zrób zdjęcie",
+        "close": "Zamknij"
+    },
+    "pickup": {
+        "title": "Znajdź Usługi Odbioru",
+        "useMyLocation": "Użyj mojej obecnej lokalizacji",
+        "or": "LUB",
+        "searchManually": "Wyszukaj adres ręcznie",
+        "searchPlaceholder": "np. Musterstraße 1, 10115 Berlin",
+        "findServices": "Znajdź Usługi",
+        "searching": "Wyszukiwanie...",
+        "availableServices": "Dostępne usługi dla:",
+        "findOnMap": "Znajdź na mapie",
+        "contact": "Kontakt",
+        "error": {
+            "noGeolocation": "Geolokalizacja nie jest obsługiwana przez Twoją przeglądarkę.",
+            "addressFromLocation": "Nie można ustalić adresu na podstawie Twojej lokalizacji.",
+            "getLocation": "Nie można uzyskać Twojej lokalizacji.",
+            "allowLocation": "Proszę zezwolić na dostęp do lokalizacji, aby korzystać z tej funkcji.",
+            "selectAddress": "Proszę wybrać prawidłowy adres z sugestii."
+        }
+    },
+    "knowledge": {
+        "title": "Ucz się i Odkrywaj",
+        "back": "Powrót do Nauki",
+        "explore": "Przeglądaj Kategorię"
+    },
+    "settings": {
+        "title": "Ustawienia",
+        "language": {
+            "title": "Język"
+        },
+        "theme": "Motyw",
+        "sound": {
+            "title": "Efekty dźwiękowe"
+        }
+    },
+    "contact": {
+        "title": "Kontakt i Opinie",
+        "subtitle": "Masz sugestię lub znalazłeś problem? Daj nam znać!",
+        "name": "Imię",
+        "email": "Adres e-mail",
+        "message": "Wiadomość",
+        "sendButton": "Wyślij Opinię",
+        "sending": "Wysyłanie...",
+        "emailSubject": "Opinia na temat Wastefy",
+        "success": {
+            "title": "Dziękujemy!",
+            "message": "Twój klient pocztowy został otwarty, aby wysłać Twoją opinię."
+        },
+        "notConfigured": {
+            "title": "Funkcja niedostępna",
+            "message": "Funkcja kontaktowa nie jest skonfigurowana dla tej wersji aplikacji."
+        }
+    },
+    "disclaimer": {
+        "content": "Informacje dostarczane przez tę aplikację służą wyłącznie celom informacyjnym. Chociaż staramy się, aby informacje były aktualne i poprawne, nie składamy żadnych oświadczeń ani gwarancji, wyraźnych ani dorozumianych, co do kompletności, dokładności lub wiarygodności. Wszelkie poleganie na takich informacjach odbywa się wyłącznie na własne ryzyko. Twórca nie ponosi odpowiedzialności za nieprawidłową utylizację odpadów. Korzystając z tej aplikacji, zgadzasz się na te warunki."
+    },
+    "disclaimerModal": {
+        "title": "Zastrzeżenie i Warunki Użytkowania",
+        "acceptButton": "Akceptuj i Kontynuuj"
+    },
+    "waste_categories": {
+        "kitchen_food": "Kuchnia i Żywność",
+        "paper_packaging": "Papier i Opakowania",
+        "household_bathroom": "Gospodarstwo Domowe i Łazienka",
+        "special_electronic": "Odpady Specjalne i Elektroniczne",
+        "garden_outdoors": "Ogród i Tereny Zewnętrzne",
+        "glass_bulky": "Szkło i Odpady Wielkogabarytowe"
+    },
+    "waste_items": {
+        "Kuchnia i Żywność": [
+            { "name": "Ogryzki jabłek", "bin": "Biotonne", "recyclable": true, "keywords": ["owoc", "resztki"], "visual": "bio" },
+            { "name": "Skórki od bananów", "bin": "Biotonne", "recyclable": true, "keywords": ["owoc", "obierki"], "visual": "bio" },
+            { "name": "Fusy z kawy", "bin": "Biotonne", "recyclable": true, "keywords": ["kawa", "fusy"], "visual": "bio" },
+            { "name": "Skorupki jajek", "bin": "Biotonne", "recyclable": true, "keywords": ["jajko", "skorupka"], "visual": "bio" },
+            { "name": "Resztki gotowanej żywności", "bin": "Biotonne", "recyclable": true, "notes": "Zawiń w gazetę, aby wchłonąć wilgoć.", "keywords": ["resztki", "żywność gotowana"], "visual": "bio" },
+            { "name": "Kości mięsne i ości ryb", "bin": "Biotonne", "recyclable": true, "notes": "Zawiń w gazetę, aby zmniejszyć zapachy.", "keywords": ["mięso", "ryba", "kości", "ości"], "visual": "bio" },
+            { "name": "Czerstwy chleb", "bin": "Biotonne", "recyclable": true, "keywords": ["pieczywo", "czerstwy"], "visual": "bio" },
+            { "name": "Tłusty karton po pizzy", "bin": "Restmüll", "recyclable": false, "notes": "Tłuszcz zanieczyszcza recykling papieru. Czyste części mogą trafić do pojemnika na papier.", "keywords": ["karton po pizzy", "tłusty"], "visual": "general" },
+            { "name": "Olej kuchenny i tłuszcz (stały)", "bin": "Restmüll", "recyclable": false, "notes": "Utwardź i zamknij w pojemniku przed wyrzuceniem. Nie wylewaj do zlewu.", "keywords": ["olej", "tłuszcz"], "visual": "general" },
+            { "name": "Stłuczona ceramika", "bin": "Restmüll", "recyclable": false, "notes": "To nie jest szkło nadające się do recyklingu.", "keywords": ["talerz", "kubek", "ceramika", "stłuczony"], "visual": "general" },
+            { "name": "Pojemniki i kubki po jogurcie", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Opróżnij dokładnie. Płukanie pomaga zapobiegać zapachom.", "keywords": ["jogurt", "kubek", "plastik"], "visual": "packaging" },
+            { "name": "Puszki metalowe", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["puszka", "metal", "tuńczyk", "zupa"], "notes": "Opróżnione i najlepiej opłukane.", "visual": "packaging" },
+            { "name": "Folia i tacki aluminiowe (czyste)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Musi być czysta od resztek jedzenia. Zgnieć w kulkę.", "keywords": ["aluminium", "folia", "tacka"], "visual": "packaging" },
+            { "name": "Kartony po napojach (Tetra Pak)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["tetrapak", "karton po mleku", "karton po soku"], "visual": "packaging" },
+            { "name": "Butelki plastikowe (bez kaucji)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Na olej, keczup itp. Butelki z kaucją (Pfand) należy zwracać do sklepu.", "keywords": ["butelka plastikowa", "keczup", "olej"], "visual": "packaging" }
+        ],
+        "Papier i Opakowania": [
+            { "name": "Gazety i czasopisma", "bin": "Papiertonne", "recyclable": true, "keywords": ["gazeta", "czasopismo"], "visual": "paper" },
+            { "name": "Pudełka kartonowe", "bin": "Papiertonne", "recyclable": true, "keywords": ["opakowanie", "pudełko", "karton"], "notes": "Spłaszcz pudełka, aby zaoszczędzić miejsce.", "visual": "paper" },
+            { "name": "Papier biurowy i zeszyty", "bin": "Papiertonne", "recyclable": true, "keywords": ["papier biurowy", "zeszyt"], "notes": "Usuń metalowe lub plastikowe spirale.", "visual": "paper" },
+            { "name": "Koperty (z okienkiem lub bez)", "bin": "Papiertonne", "recyclable": true, "notes": "Nie trzeba usuwać małego plastikowego okienka.", "keywords": ["koperta", "list"], "visual": "paper" },
+            { "name": "Opakowania styropianowe (czyste)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["styropian", "opakowanie"], "visual": "packaging" },
+            { "name": "Folia spożywcza i bąbelkowa", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["folia", "folia bąbelkowa"], "visual": "packaging" },
+            { "name": "Paragony z papieru termicznego", "bin": "Restmüll", "recyclable": false, "notes": "Papier powlekany, którego nie należy poddawać recyklingowi ze zwykłym papierem.", "keywords": ["paragon"], "visual": "general" },
+            { "name": "Papier do pieczenia", "bin": "Restmüll", "recyclable": false, "keywords": ["papier do pieczenia"], "visual": "general" },
+            { "name": "Zdjęcia", "bin": "Restmüll", "recyclable": false, "notes": "Papier powlekany, którego nie należy poddawać recyklingowi ze zwykłym papierem.", "keywords": ["zdjęcie"], "visual": "general" }
+        ],
+        "Gospodarstwo Domowe i Łazienka": [
+            { "name": "Butelki po szamponie i żelu pod prysznic (puste)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["szampon", "żel pod prysznic", "butelka"], "visual": "packaging" },
+            { "name": "Tubki po paście do zębów (puste)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["pasta do zębów", "tubka"], "visual": "packaging" },
+            { "name": "Pieluchy", "bin": "Restmüll", "recyclable": false, "keywords": ["pielucha", "dziecko"], "visual": "general" },
+            { "name": "Chusteczki nawilżane", "bin": "Restmüll", "recyclable": false, "notes": "Zawierają plastik i nie wolno ich wrzucać do toalety.", "keywords": ["chusteczka", "nawilżana"], "visual": "general" },
+            { "name": "Szczoteczki do zębów (manualne)", "bin": "Restmüll", "recyclable": false, "keywords": ["szczoteczka do zębów"], "visual": "general" },
+            { "name": "Maszynki do golenia jednorazowe", "bin": "Restmüll", "recyclable": false, "notes": "Dla bezpieczeństwa, zawiń przed wyrzuceniem.", "keywords": ["maszynka do golenia"], "visual": "general" }
+        ],
+        "Odpady Specjalne i Elektroniczne": [
+            { "name": "Baterie", "bin": "Elektroschrott", "recyclable": true, "notes": "Zwracaj do pojemników zbiorczych w sklepach lub w punktach selektywnej zbiórki. NIE wrzucaj do śmieci domowych.", "keywords": ["bateria"], "visual": "electronics" },
+            { "name": "Żarówki energooszczędne i LED", "bin": "Elektroschrott", "recyclable": true, "notes": "Zawierają elementy elektroniczne i muszą być utylizowane jako elektrośmieci.", "keywords": ["żarówka", "led", "cfl"], "visual": "electronics" },
+            { "name": "Telefony komórkowe i kable", "bin": "Elektroschrott", "recyclable": true, "keywords": ["telefon", "kabel", "ładowarka"], "visual": "electronics" },
+            { "name": "Małe urządzenia AGD", "bin": "Elektroschrott", "recyclable": true, "notes": "Tostery, czajniki, suszarki do włosów itp.", "keywords": ["urządzenie", "toster", "suszarka"], "visual": "electronics" },
+            { "name": "Przeterminowane leki", "bin": "Elektroschrott", "recyclable": false, "notes": "Traktowane jako odpady niebezpieczne. Zwróć do apteki lub oddaj w punkcie zbiórki odpadów niebezpiecznych. Nie spłukuj w toalecie!", "keywords": ["lek", "tabletka", "syrop"], "visual": "electronics" }
+        ],
+        "Ogród i Tereny Zewnętrzne": [
+            { "name": "Skoszona trawa i liście", "bin": "Biotonne", "recyclable": true, "keywords": ["trawa", "liście", "skoszona trawa"], "visual": "bio" },
+            { "name": "Gałęzie i gałązki (małe)", "bin": "Biotonne", "recyclable": true, "notes": "Nie powinny być grubsze niż nadgarstek.", "keywords": ["gałęzie", "przycinanie"], "visual": "bio" },
+            { "name": "Plastikowe doniczki (po zakupie)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["doniczka", "kwiat", "plastik"], "visual": "packaging" },
+            { "name": "Stłuczone doniczki gliniane", "bin": "Restmüll", "recyclable": false, "notes": "W dużych ilościach, utylizuj jako gruz w punkcie selektywnej zbiórki.", "keywords": ["terakota", "doniczka", "stłuczony"], "visual": "general" }
+        ],
+        "Szkło i Odpady Wielkogabarytowe": [
+            { "name": "Butelki i słoiki szklane", "bin": "Glascontainer", "recyclable": true, "notes": "Sortuj według koloru (biały, zielony, brązowy). Nakrętki wrzucaj do Żółtego Worka. Szkło niebieskie wrzucaj razem z zielonym.", "keywords": ["butelka", "słoik", "szkło"], "visual": "glass" },
+            { "name": "Meble (krzesła, stoły, szafy)", "bin": "Sperrmüll", "recyclable": true, "notes": "Zorganizuj odbiór z lokalną firmą wywozową lub zawieź do punktu selektywnej zbiórki.", "keywords": ["meble", "krzesło", "stół", "szafa"], "visual": "bulky" },
+            { "name": "Materace i dywany", "bin": "Sperrmüll", "recyclable": true, "keywords": ["materac", "dywan"], "visual": "bulky" },
+            { "name": "Duże urządzenia AGD", "bin": "Sperrmüll", "recyclable": true, "notes": "To są elektrośmieci, ale często odbierane są jako odpady wielkogabarytowe. Sprawdź lokalne przepisy.", "keywords": ["lodówka", "pralka", "piekarnik"], "visual": "electronics" },
+            { "name": "Lustra", "bin": "Sperrmüll", "recyclable": false, "notes": "Lustra nie nadają się do recyklingu ze szkłem opakowaniowym. Utylizuj jako odpad wielkogabarytowy.", "keywords": ["lustro"], "visual": "bulky" },
+            { "name": "Stłuczone naczynia żaroodporne (Pyrex)", "bin": "Restmüll", "recyclable": false, "notes": "Ma inną temperaturę topnienia niż szkło opakowaniowe.", "keywords": ["pyrex", "naczynie żaroodporne"], "visual": "general" }
+        ]
+    },
+    "knowledge_base": [
+        {
+            "title": "Znajdź pobliskie punkty zbiórki",
+            "image": "locations",
+            "subCategories": [
+              {
+                "title": "Znajdź lokalizacje",
+                "type": "location",
+                "articles": [
+                  { "title": "Znajdź pojemniki na szkło", "iconKey": "Trash2", "content": ["Na butelki i słoiki bez kaucji, sortowane według koloru."], "mapQuery": "Pojemnik na szkło w pobliżu" },
+                  { "title": "Znajdź punkty zbiórki elektrośmieci", "iconKey": "Zap", "content": ["Na stary sprzęt elektroniczny, baterie i urządzenia."], "mapQuery": "PSZOK w pobliżu" },
+                  { "title": "Znajdź pojemniki na odzież", "iconKey": "ShoppingBag", "content": ["Na ubrania i buty nadające się do noszenia."], "mapQuery": "Pojemnik na odzież w pobliżu" },
+                  { "title": "Znajdź punkty zwrotu kaucji", "iconKey": "Home", "content": ["Zwracaj butelki z kaucją (system Pfand) w większości supermarketów."], "mapQuery": "Supermarket z automatem do butelek w pobliżu" }
+                ]
+              }
+            ]
+        },
+        {
+            "title": "Przewodniki po utylizacji odpadów",
+            "image": "bins",
+            "subCategories": [
+                {
+                    "title": "Odpady specjalne",
+                    "type": "accordion",
+                    "articles": [
+                        { "title": "Elektrośmieci", "iconKey": "Zap", "content": ["Każde urządzenie z wtyczką lub baterią to elektrośmieci.", "Zwracaj je do sklepów z elektroniką lub punktu selektywnej zbiórki (PSZOK).", "Obejmuje to telefony, laptopy, czajniki, a nawet elektryczne szczoteczki do zębów."] },
+                        { "title": "Odpady niebezpieczne (Schadstoffe)", "iconKey": "FlaskConical", "content": ["Obejmuje farby w płynie, chemikalia, pestycydy i termometry rtęciowe.", "Należy je oddać do mobilnego punktu zbiórki odpadów niebezpiecznych (Schadstoffmobil) lub PSZOK.", "Nigdy nie wylewaj do kanalizacji ani nie wyrzucaj do śmieci domowych."] },
+                        { "title": "Utylizacja leków", "iconKey": "Stethoscope", "content": ["Stare tabletki i płyny to odpady niebezpieczne.", "Zwróć je do apteki w celu bezpiecznej utylizacji.", "Nie spłukuj ich w toalecie."] },
+                        { "title": "Odpady wielkogabarytowe (Sperrmüll)", "iconKey": "Sofa", "content": ["Przedmioty zbyt duże, aby zmieściły się w koszu, takie jak meble, dywany i materace.", "Zorganizuj odbiór z lokalną gminą lub zawieź je do PSZOK.", "Elektrośmieci i gruz budowlany są często traktowane oddzielnie."] }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Wskazówki i informacje",
+            "image": "sustainability",
+            "subCategories": [
+                {
+                    "title": "Wskazówki dotyczące redukcji odpadów",
+                    "type": "accordion",
+                    "articles": [
+                      { "title": "Redukuj i używaj ponownie", "iconKey": "Recycle", "content": ["Używaj toreb na zakupy, kubków do kawy i butelek na wodę wielokrotnego użytku.", "Kupuj produkty z minimalną ilością opakowań.", "Naprawiaj przedmioty zamiast je wymieniać."] }
+                    ]
+                },
+                {
+                    "title": "Fakty o recyklingu w Niemczech",
+                    "type": "accordion",
+                    "articles": [
+                        { "title": "Zielony Punkt (Der Grüne Punkt)", "iconKey": "Package", "content": ["Ten symbol oznacza, że producent wniósł wkład w koszty recyklingu opakowań.", "Niekoniecznie oznacza to, że przedmiot nadaje się do recyklingu, ale większość przedmiotów z tym symbolem tak."] },
+                        { "title": "System kaucji (Pfand)", "iconKey": "Droplets", "content": ["Niemcy mają bardzo skuteczny system zwrotu kaucji (Pfand) za opakowania po napojach.", "Zwróć je do automatu w supermarkecie, aby odzyskać kaucję."] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

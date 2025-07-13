@@ -1,0 +1,16 @@
+{
+  "appId": "com.Wastefy",
+  "appName": "Wastefy",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "AdMob": {
+      "appId": "ca-app-pub-3940256099942544~3347511713",
+      "testing": true,
+      "testDevices": [
+        "YOUR_TEST_DEVICE_ID"
+      ],
+      "initializeForTesting": true
+    }
+  }
+}

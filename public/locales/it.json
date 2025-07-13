@@ -1,0 +1,224 @@
+
+{
+    "app": {
+        "title": "Wastefy"
+    },
+    "nav": {
+        "home": "Home",
+        "pickup": "Ritiro",
+        "findNearby": "Nelle Vicinanze",
+        "learn": "Impara",
+        "settings": "Impostazioni"
+    },
+    "binGuide": {
+        "title": "Cosa stai buttando via?",
+        "subtitle": "Seleziona una categoria o cerca un articolo.",
+        "searchPlaceholder": "Cerca un articolo (es. 'cartone del latte')",
+        "searching": "Ricerca in corso...",
+        "searchResults": "Risultato/i della ricerca",
+        "noResults": "Nessun risultato trovato per \"{{searchTerm}}\"",
+        "noResultsHint": "Prova a controllare l'ortografia o a usare un termine diverso.",
+        "backToCategories": "Torna alle categorie",
+        "disposeIn": "Smaltire in",
+        "importantNotes": "Note importanti",
+        "collectionType": "Tipo di raccolta",
+        "findFacilities": "Trova strutture vicine per",
+        "findFacilitiesButton": "Trova strutture vicine",
+        "homeCollection": "Raccolta presso la tua residenza (casa/appartamento).",
+        "endOfList": "Hai raggiunto la fine della lista."
+    },
+    "scanner": {
+        "error": {
+            "permission": "Permesso fotocamera negato. Abilitalo nelle impostazioni del browser per usare lo scanner.",
+            "noCamera": "Nessuna fotocamera adatta trovata sul tuo dispositivo.",
+            "unidentified": "L'articolo non è stato identificato chiaramente. Riprova con un'immagine più nitida o cerca manualmente.",
+            "title": "Analisi fallita",
+            "cameraTitle": "Errore fotocamera"
+        },
+        "analyzing": "Analisi in corso...",
+        "retry": "Riprova",
+        "scanAnother": "Scansiona un altro articolo",
+        "capture": "Cattura",
+        "close": "Chiudi"
+    },
+    "pickup": {
+        "title": "Trova Servizi di Ritiro",
+        "useMyLocation": "Usa la mia posizione attuale",
+        "or": "OPPURE",
+        "searchManually": "Cerca un indirizzo manually",
+        "searchPlaceholder": "es. Musterstraße 1, 10115 Berlino",
+        "findServices": "Trova Servizi",
+        "searching": "Ricerca in corso...",
+        "availableServices": "Servizi disponibili per:",
+        "findOnMap": "Trova sulla mappa",
+        "contact": "Contatta",
+        "error": {
+            "noGeolocation": "La geolocalizzazione non è supportata dal tuo browser.",
+            "addressFromLocation": "Impossibile determinare l'indirizzo dalla tua posizione.",
+            "getLocation": "Impossibile ottenere la tua posizione.",
+            "allowLocation": "Per favore, consenti l'accesso alla posizione per usare questa funzione.",
+            "selectAddress": "Seleziona un indirizzo valido dai suggerimenti."
+        }
+    },
+    "knowledge": {
+        "title": "Impara e Scopri",
+        "back": "Torna a Impara",
+        "explore": "Esplora la Categoria"
+    },
+    "settings": {
+        "title": "Impostazioni",
+        "language": {
+            "title": "Lingua"
+        },
+        "theme": "Tema",
+        "sound": {
+            "title": "Effetti sonori"
+        }
+    },
+    "contact": {
+        "title": "Contatti e Feedback",
+        "subtitle": "Hai un suggerimento o hai trovato un problema? Faccelo sapere!",
+        "name": "Nome",
+        "email": "Indirizzo Email",
+        "message": "Messaggio",
+        "sendButton": "Invia Feedback",
+        "sending": "Invio in corso...",
+        "emailSubject": "Feedback per Wastefy",
+        "success": {
+            "title": "Grazie!",
+            "message": "Il tuo client di posta elettronica è stato aperto per inviare il tuo feedback."
+        },
+        "notConfigured": {
+            "title": "Funzione non disponibile",
+            "message": "La funzione di contatto non è configurata per questa versione dell'app."
+        }
+    },
+    "disclaimer": {
+        "content": "Le informazioni fornite da questa app sono solo a scopo di orientamento generale. Sebbene ci sforziamo di mantenere le informazioni aggiornate e corrette, non forniamo alcuna dichiarazione o garanzia di alcun tipo, esplicita o implicita, sulla completezza, accuratezza o affidabilità. Qualsiasi affidamento riposto su tali informazioni è quindi strettamente a proprio rischio. Il creatore non è responsabile per lo smaltimento errato dei rifiuti. Utilizzando questa app, accetti questi termini."
+    },
+    "disclaimerModal": {
+        "title": "Disclaimer e Termini di Utilizzo",
+        "acceptButton": "Accetta e Continua"
+    },
+    "waste_categories": {
+        "kitchen_food": "Cucina e Cibo",
+        "paper_packaging": "Carta e Imballaggi",
+        "household_bathroom": "Casa e Bagno",
+        "special_electronic": "Rifiuti Speciali ed Elettronici",
+        "garden_outdoors": "Giardino ed Esterni",
+        "glass_bulky": "Vetro e Ingombranti"
+    },
+    "waste_items": {
+        "Cucina e Cibo": [
+            { "name": "Torsoli di mela", "bin": "Biotonne", "recyclable": true, "keywords": ["frutta", "scarti"], "visual": "bio" },
+            { "name": "Bucce di banana", "bin": "Biotonne", "recyclable": true, "keywords": ["frutta", "bucce"], "visual": "bio" },
+            { "name": "Fondi di caffè", "bin": "Biotonne", "recyclable": true, "keywords": ["caffè", "fondi"], "visual": "bio" },
+            { "name": "Gusci d'uovo", "bin": "Biotonne", "recyclable": true, "keywords": ["uovo", "guscio"], "visual": "bio" },
+            { "name": "Avanzi di cibo cotto", "bin": "Biotonne", "recyclable": true, "notes": "Avvolgere in carta di giornale per assorbire l'umidità.", "keywords": ["avanzi", "cibo cotto"], "visual": "bio" },
+            { "name": "Ossa di carne e lische di pesce", "bin": "Biotonne", "recyclable": true, "notes": "Avvolgere in carta di giornale per ridurre gli odori.", "keywords": ["carne", "pesce", "ossa", "lische"], "visual": "bio" },
+            { "name": "Pane raffermo", "bin": "Biotonne", "recyclable": true, "keywords": ["panetteria", "raffermo"], "visual": "bio" },
+            { "name": "Cartone della pizza unto", "bin": "Restmüll", "recyclable": false, "notes": "L'unto contamina il riciclo della carta. Le parti pulite possono andare nella raccolta della carta.", "keywords": ["cartone pizza", "unto"], "visual": "general" },
+            { "name": "Olio da cucina e grasso (solidificati)", "bin": "Restmüll", "recyclable": false, "notes": "Solidificare e sigillare in un contenitore prima di smaltire. Non versare nello scarico.", "keywords": ["olio", "grasso"], "visual": "general" },
+            { "name": "Piatti e bicchieri di ceramica rotti", "bin": "Restmüll", "recyclable": false, "notes": "Non sono vetro riciclabile.", "keywords": ["piatto", "tazza", "ceramica", "rotto"], "visual": "general" },
+            { "name": "Vasetti e vaschette di yogurt", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Svuotare bene. Sciacquare aiuta a prevenire gli odori.", "keywords": ["yogurt", "vasetto", "plastica"], "visual": "packaging" },
+            { "name": "Lattine di metallo", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["lattina", "metallo", "tonno", "zuppa"], "notes": "Vuote e preferibilmente sciacquate.", "visual": "packaging" },
+            { "name": "Fogli e vaschette di alluminio (puliti)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Devono essere puliti da residui di cibo. Appallottolare.", "keywords": ["alluminio", "foglio", "vaschetta"], "visual": "packaging" },
+            { "name": "Cartoni per bevande (Tetra Pak)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["tetrapak", "cartone latte", "cartone succo"], "visual": "packaging" },
+            { "name": "Bottiglie di plastica (senza cauzione)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Per olio, ketchup, ecc. Le bottiglie con cauzione (Pfand) devono essere restituite al negozio.", "keywords": ["bottiglia plastica", "ketchup", "olio"], "visual": "packaging" }
+        ],
+        "Paper & Packaging": [
+            { "name": "Giornali e riviste", "bin": "Papiertonne", "recyclable": true, "keywords": ["giornale", "rivista"], "visual": "paper" },
+            { "name": "Scatole di cartone", "bin": "Papiertonne", "recyclable": true, "keywords": ["imballaggio", "scatola", "cartone"], "notes": "Appiattire le scatole per risparmiare spazio.", "visual": "paper" },
+            { "name": "Carta da ufficio e quaderni", "bin": "Papiertonne", "recyclable": true, "keywords": ["carta ufficio", "quaderno"], "notes": "Rimuovere le spirali di metallo o plastica.", "visual": "paper" },
+            { "name": "Buste (con o senza finestra)", "bin": "Papiertonne", "recyclable": true, "notes": "Non è necessario rimuovere la piccola finestra di plastica.", "keywords": ["busta", "lettera"], "visual": "paper" },
+            { "name": "Imballaggi in polistirolo (puliti)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["polistirolo", "imballaggio"], "visual": "packaging" },
+            { "name": "Pellicola trasparente e pluriball", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["pellicola", "pluriball"], "visual": "packaging" },
+            { "name": "Scontrini di carta termica", "bin": "Restmüll", "recyclable": false, "notes": "La carta patinata non va riciclata con la carta normale.", "keywords": ["scontrino", "carta termica"], "visual": "general" },
+            { "name": "Carta da forno", "bin": "Restmüll", "recyclable": false, "keywords": ["carta forno"], "visual": "general" }
+        ],
+        "Casa e Bagno": [
+            { "name": "Flaconi di shampoo e bagnoschiuma (vuoti)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["shampoo", "bagnoschiuma", "flacone"], "visual": "packaging" },
+            { "name": "Tubetti di dentifricio (vuoti)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["dentifricio", "tubetto"], "visual": "packaging" },
+            { "name": "Pannolini", "bin": "Restmüll", "recyclable": false, "keywords": ["pannolino", "bambino"], "visual": "general" },
+            { "name": "Salviettine umidificate", "bin": "Restmüll", "recyclable": false, "notes": "Contengono plastica e non devono essere gettate nel WC.", "keywords": ["salviettina", "umidificata"], "visual": "general" },
+            { "name": "Spazzolini da denti manuali", "bin": "Restmüll", "recyclable": false, "keywords": ["spazzolino"], "visual": "general" },
+            { "name": "Rasoi usa e getta", "bin": "Restmüll", "recyclable": false, "notes": "Per sicurezza, avvolgere prima di smaltire.", "keywords": ["rasoio"], "visual": "general" }
+        ],
+        "Rifiuti Speciali ed Elettronici": [
+            { "name": "Batterie", "bin": "Elektroschrott", "recyclable": true, "notes": "Restituire alle scatole di raccolta nei negozi o ai centri di riciclaggio. NON gettare nei rifiuti domestici.", "keywords": ["batteria", "pila"], "visual": "electronics" },
+            { "name": "Lampadine a risparmio energetico e LED", "bin": "Elektroschrott", "recyclable": true, "notes": "Contengono componenti elettronici e vanno smaltite come RAEE.", "keywords": ["lampadina", "led", "cfl"], "visual": "electronics" },
+            { "name": "Telefoni cellulari e cavi", "bin": "Elektroschrott", "recyclable": true, "keywords": ["telefono", "cavo", "caricabatterie"], "visual": "electronics" },
+            { "name": "Piccoli elettrodomestici", "bin": "Elektroschrott", "recyclable": true, "notes": "Tostapane, bollitori, asciugacapelli, ecc.", "keywords": ["elettrodomestico", "tostapane", "asciugacapelli"], "visual": "electronics" },
+            { "name": "Farmaci scaduti", "bin": "Elektroschrott", "recyclable": false, "notes": "Considerati rifiuti pericolosi. Restituire in farmacia o smaltire presso un punto di raccolta per rifiuti pericolosi. Non gettare nel WC!", "keywords": ["farmaco", "pillola", "sciroppo"], "visual": "electronics" }
+        ],
+        "Giardino ed Esterni": [
+            { "name": "Erba tagliata e foglie", "bin": "Biotonne", "recyclable": true, "keywords": ["erba", "foglie", "sfalci"], "visual": "bio" },
+            { "name": "Rami e ramoscelli (piccoli)", "bin": "Biotonne", "recyclable": true, "notes": "Non devono essere più spessi di un polso.", "keywords": ["rami", "potatura"], "visual": "bio" },
+            { "name": "Vasi di fiori in plastica (dall'acquisto)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["vaso", "fiore", "plastica"], "visual": "packaging" },
+            { "name": "Vasi di terracotta rotti", "bin": "Restmüll", "recyclable": false, "notes": "In grandi quantità, smaltire come macerie (Bauschutt) in un centro di riciclaggio.", "keywords": ["terracotta", "vaso", "rotto"], "visual": "general" }
+        ],
+        "Vetro e Ingombranti": [
+            { "name": "Bottiglie e barattoli di vetro", "bin": "Glascontainer", "recyclable": true, "notes": "Suddividere per colore (bianco, verde, marrone). I coperchi vanno nel Sacco Giallo. Il vetro blu va con il verde.", "keywords": ["bottiglia", "barattolo", "vetro"], "visual": "glass" },
+            { "name": "Mobili (sedie, tavoli, armadi)", "bin": "Sperrmüll", "recyclable": true, "notes": "Organizzare un ritiro con il servizio di smaltimento locale o portare a un centro di riciclaggio.", "keywords": ["mobile", "sedia", "tavolo", "armadio"], "visual": "bulky" },
+            { "name": "Materassi e tappeti", "bin": "Sperrmüll", "recyclable": true, "keywords": ["materasso", "tappeto"], "visual": "bulky" },
+            { "name": "Grandi elettrodomestici", "bin": "Sperrmüll", "recyclable": true, "notes": "Sono RAEE ma spesso vengono raccolti come rifiuti ingombranti. Verificare le regole locali.", "keywords": ["frigorifero", "lavatrice", "forno"], "visual": "electronics" },
+            { "name": "Specchi", "bin": "Sperrmüll", "recyclable": false, "notes": "Gli specchi non sono riciclabili con il vetro da imballaggio. Smaltire come rifiuto ingombrante.", "keywords": ["specchio"], "visual": "bulky" },
+            { "name": "Vetro da forno (Pyrex) rotto", "bin": "Restmüll", "recyclable": false, "notes": "Ha un punto di fusione diverso dal vetro da imballaggio.", "keywords": ["pyrex", "pirofila"], "visual": "general" }
+        ]
+    },
+    "knowledge_base": [
+        {
+            "title": "Trova Strutture Vicine",
+            "image": "locations",
+            "subCategories": [
+              {
+                "title": "Trova Luoghi",
+                "type": "location",
+                "articles": [
+                  { "title": "Trova contenitori per il vetro", "iconKey": "Trash2", "content": ["Per bottiglie e barattoli senza cauzione, suddivisi per colore."], "mapQuery": "Campana del vetro nelle vicinanze" },
+                  { "title": "Trova centri di raccolta RAEE", "iconKey": "Zap", "content": ["Per vecchi dispositivi elettronici, batterie ed elettrodomestici."], "mapQuery": "Centro di raccolta RAEE nelle vicinanze" },
+                  { "title": "Trova contenitori per abiti usati", "iconKey": "ShoppingBag", "content": ["Per abiti e scarpe ancora indossabili."], "mapQuery": "Cassonetto abiti usati nelle vicinanze" },
+                  { "title": "Trova punti di restituzione cauzione", "iconKey": "Home", "content": ["Restituisci le bottiglie con cauzione (Pfand) nella maggior parte dei supermercati."], "mapQuery": "Supermercato con macchina per il vuoto a rendere nelle vicinanze" }
+                ]
+              }
+            ]
+        },
+        {
+            "title": "Guide allo Smaltimento dei Rifiuti",
+            "image": "bins",
+            "subCategories": [
+                {
+                    "title": "Rifiuti Speciali",
+                    "type": "accordion",
+                    "articles": [
+                        { "title": "Rifiuti Elettronici (RAEE)", "iconKey": "Zap", "content": ["Tutti i dispositivi con spina o batteria sono RAEE.", "Restituirli ai negozi di elettronica o a un centro di riciclaggio (Wertstoffhof).", "Questo include telefoni, laptop, bollitori e persino spazzolini da denti elettrici."] },
+                        { "title": "Rifiuti Pericolosi (Schadstoffe)", "iconKey": "FlaskConical", "content": ["Include vernici liquide, prodotti chimici, pesticidi e termometri a mercurio.", "Devono essere portati a un veicolo di raccolta per rifiuti pericolosi (Schadstoffmobil) o a un centro di riciclaggio.", "Non versare mai nello scarico o nei bidoni domestici."] },
+                        { "title": "Smaltimento dei Farmaci", "iconKey": "Stethoscope", "content": ["Pillole e liquidi vecchi sono rifiuti pericolosi.", "Restituirli a una farmacia per uno smaltimento sicuro.", "Non gettarli nel WC."] },
+                        { "title": "Rifiuti Ingombranti (Sperrmüll)", "iconKey": "Sofa", "content": ["Oggetti troppo grandi per il tuo bidone, come mobili, tappeti e materassi.", "Pianifica un ritiro con il tuo comune o portali a un centro di riciclaggio.", "I RAEE e i rifiuti edili sono spesso gestiti separatamente."] }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Consigli e Informazioni",
+            "image": "sustainability",
+            "subCategories": [
+                {
+                    "title": "Consigli per la Riduzione dei Rifiuti",
+                    "type": "accordion",
+                    "articles": [
+                      { "title": "Riduci e Riusa", "iconKey": "Recycle", "content": ["Usa borse della spesa, tazze da caffè e bottiglie d'acqua riutilizzabili.", "Acquista prodotti con imballaggio minimo.", "Ripara gli oggetti invece di sostituirli."] }
+                    ]
+                },
+                {
+                    "title": "Fatti sul Riciclo in Germania",
+                    "type": "accordion",
+                    "articles": [
+                        { "title": "Il Punto Verde (Der Grüne Punkt)", "iconKey": "Package", "content": ["Questo simbolo indica che il produttore ha contribuito al costo del riciclo degli imballaggi.", "Non significa necessariamente che l'articolo sia riciclabile, ma la maggior parte degli articoli con questo simbolo lo sono."] },
+                        { "title": "Sistema Pfand", "iconKey": "Droplets", "content": ["La Germania ha un sistema di cauzione-rimborso (Pfand) molto efficace per i contenitori delle bevande.", "Restituiscili a una macchina per il vuoto a rendere in un supermercato per riavere la tua cauzione."] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

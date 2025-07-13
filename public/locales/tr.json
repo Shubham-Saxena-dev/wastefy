@@ -1,0 +1,295 @@
+
+{
+    "app": {
+        "title": "Wastefy"
+    },
+    "nav": {
+        "home": "Anasayfa",
+        "pickup": "Toplama",
+        "findNearby": "Yakınımda",
+        "learn": "Öğren",
+        "settings": "Ayarlar"
+    },
+    "binGuide": {
+        "title": "Ne atıyorsunuz?",
+        "subtitle": "Bir kategori seçin veya bir ürün arayın.",
+        "searchPlaceholder": "Bir ürün arayın (ör. 'süt kutusu')",
+        "searching": "Aranıyor...",
+        "searchResults": "Arama Sonucu/Sonuçları",
+        "noResults": "\"{{searchTerm}}\" için sonuç bulunamadı",
+        "noResultsHint": "Yazımı kontrol edin veya farklı bir terim kullanın.",
+        "backToCategories": "Kategorilere Geri Dön",
+        "disposeIn": "Şuraya atın",
+        "importantNotes": "Önemli Notlar",
+        "collectionType": "Toplama Türü",
+        "findFacilities": "Yakındaki tesisleri bul",
+        "findFacilitiesButton": "Yakındaki Tesisleri Bul",
+        "homeCollection": "Konutunuzdan (ev/apartman) toplanır.",
+        "endOfList": "Listenin sonuna ulaştınız."
+    },
+    "scanner": {
+        "error": {
+            "permission": "Kamera izni reddedildi. Tarayıcıyı kullanmak için lütfen tarayıcı ayarlarınızdan etkinleştirin.",
+            "noCamera": "Cihazınızda uygun bir kamera bulunamadı.",
+            "unidentified": "Ürün net bir şekilde tanımlanamadı. Lütfen daha net bir resimle tekrar deneyin veya manuel olarak arayın.",
+            "title": "Analiz Başarısız",
+            "cameraTitle": "Kamera Hatası"
+        },
+        "analyzing": "Analiz ediliyor...",
+        "retry": "Tekrar Dene",
+        "scanAnother": "Başka Bir Ürün Tara",
+        "capture": "Yakala",
+        "close": "Kapat"
+    },
+    "pickup": {
+        "title": "Toplama Hizmetlerini Bul",
+        "useMyLocation": "Mevcut Konumumu Kullan",
+        "or": "VEYA",
+        "searchManually": "Adresi manuel olarak arayın",
+        "searchPlaceholder": "ör. Musterstraße 1, 10115 Berlin",
+        "findServices": "Hizmetleri Bul",
+        "searching": "Aranıyor...",
+        "availableServices": "Şu konum için mevcut hizmetler:",
+        "findOnMap": "Haritada Bul",
+        "contact": "İletişim",
+        "error": {
+            "noGeolocation": "Coğrafi konum tarayıcınız tarafından desteklenmiyor.",
+            "addressFromLocation": "Konumunuzdan adres belirlenemedi.",
+            "getLocation": "Konumunuz alınamadı.",
+            "allowLocation": "Bu özelliği kullanmak için lütfen konum erişimine izin verin.",
+            "selectAddress": "Lütfen önerilerden geçerli bir adres seçin."
+        }
+    },
+    "knowledge": {
+        "title": "Öğren ve Keşfet",
+        "back": "Öğrenmeye Geri Dön",
+        "explore": "Kategoriyi Keşfet"
+    },
+    "settings": {
+        "title": "Ayarlar",
+        "language": {
+            "title": "Dil"
+        },
+        "theme": "Tema",
+        "sound": {
+            "title": "Ses Efektleri"
+        }
+    },
+    "contact": {
+        "title": "İletişim ve Geri Bildirim",
+        "subtitle": "Bir öneriniz mi var veya bir sorun mu buldunuz? Bize bildirin!",
+        "name": "İsim",
+        "email": "E-posta Adresi",
+        "message": "Mesaj",
+        "sendButton": "Geri Bildirim Gönder",
+        "sending": "Gönderiliyor...",
+        "emailSubject": "Wastefy için Geri Bildirim",
+        "success": {
+            "title": "Teşekkürler!",
+            "message": "Geri bildiriminizi göndermek için e-posta istemciniz açıldı."
+        },
+        "notConfigured": {
+            "title": "Özellik Kullanılamıyor",
+            "message": "İletişim özelliği bu uygulama sürümü için yapılandırılmamış."
+        }
+    },
+    "disclaimer": {
+        "content": "Bu uygulama tarafından sağlanan bilgiler yalnızca genel rehberlik amaçlıdır. Bilgileri güncel ve doğru tutmaya çalışsak da, eksiksizlik, doğruluk veya güvenilirlik hakkında açık veya zımni hiçbir beyanda veya garantide bulunmuyoruz. Bu tür bilgilere güvenmeniz kesinlikle kendi sorumluluğunuzdadır. Yaratıcı, atıkların yanlış bir şekilde imha edilmesinden sorumlu değildir. Bu uygulamayı kullanarak bu şartları kabul etmiş olursunuz."
+    },
+    "disclaimerModal": {
+        "title": "Yasal Uyarı ve Kullanım Koşulları",
+        "acceptButton": "Kabul Et ve Devam Et"
+    },
+    "waste_categories": {
+        "kitchen_food": "Mutfak ve Gıda",
+        "paper_packaging": "Kağıt ve Ambalaj",
+        "household_bathroom": "Ev ve Banyo",
+        "special_electronic": "Özel ve Elektronik Atık",
+        "garden_outdoors": "Bahçe ve Dış Mekan",
+        "glass_bulky": "Cam ve Hacimli Atık"
+    },
+    "waste_items": {
+        "Mutfak ve Gıda": [
+            { "name": "Elma Çekirdekleri", "bin": "Biotonne", "recyclable": true, "keywords": ["meyve", "artık"], "visual": "bio" },
+            { "name": "Avokado Çekirdekleri ve Kabukları", "bin": "Biotonne", "recyclable": true, "keywords": ["meyve", "çekirdek"], "visual": "bio" },
+            { "name": "Muz Kabukları", "bin": "Biotonne", "recyclable": true, "keywords": ["meyve", "kabuk"], "visual": "bio" },
+            { "name": "Ekmek (bayat)", "bin": "Biotonne", "recyclable": true, "keywords": ["fırın", "bayat"], "visual": "bio" },
+            { "name": "Tavuk Kemikleri (pişmiş veya çiğ)", "bin": "Biotonne", "recyclable": true, "notes": "Kokuyu azaltmak için gazeteye sarın.", "keywords": ["et", "kemik"], "visual": "bio" },
+            { "name": "Kahve Filtreleri ve Telvesi", "bin": "Biotonne", "recyclable": true, "keywords": ["kahve", "filtre", "telve"], "visual": "bio" },
+            { "name": "Pişmiş Yemek Artıkları", "bin": "Biotonne", "recyclable": true, "notes": "Nemi emmesi için gazeteye sarın.", "keywords": ["yemek artığı", "pişmiş gıda"], "visual": "bio" },
+            { "name": "Yumurta Kabukları", "bin": "Biotonne", "recyclable": true, "keywords": ["yumurta", "kabuk"], "visual": "bio" },
+            { "name": "Balık Kılçıkları ve Derisi", "bin": "Biotonne", "recyclable": true, "notes": "Kokuyu azaltmak için gazeteye sarın.", "keywords": ["balık", "kılçık"], "visual": "bio" },
+            { "name": "Yemekle Kirlenmiş Kağıt Havlu/Peçete", "bin": "Biotonne", "recyclable": true, "keywords": ["mutfak rulosu", "peçete"], "visual": "bio" },
+            { "name": "Meyve ve Sebze Kabukları", "bin": "Biotonne", "recyclable": true, "keywords": ["kabuk", "artık"], "visual": "bio" },
+            { "name": "Saç (insan veya evcil hayvan)", "bin": "Biotonne", "recyclable": true, "keywords": ["saç", "tüy"], "visual": "bio" },
+            { "name": "Et ve Yağ Artıkları", "bin": "Biotonne", "recyclable": true, "notes": "Kokuyu azaltmak için gazeteye sarın.", "keywords": ["et", "artık"], "visual": "bio" },
+            { "name": "Fındık Kabukları", "bin": "Biotonne", "recyclable": true, "keywords": ["fındık", "kabuk"], "visual": "bio" },
+            { "name": "Çay Poşetleri ve Dökme Çay Yaprakları", "bin": "Biotonne", "recyclable": true, "keywords": ["çay", "poşet", "yaprak"], "visual": "bio" },
+            { "name": "Alüminyum Folyo (kirli)", "bin": "Restmüll", "recyclable": false, "notes": "Yoğun gıda kirliliği geri dönüşümü engeller.", "keywords": ["alüminyum folyo", "folyo", "kirli"], "visual": "general" },
+            { "name": "Pişirme Kağıdı", "bin": "Restmüll", "recyclable": false, "notes": "Normal kağıtla geri dönüştürülemeyen kaplamalı kağıt.", "keywords": ["parşömen"], "visual": "general" },
+            { "name": "Kırık Porselen (Seramik, Porselen)", "bin": "Restmüll", "recyclable": false, "notes": "Kırık tabaklar, bardaklar veya kaseler. Bu cam değildir.", "keywords": ["porselen", "tabak", "bardak", "seramik", "kırık"], "visual": "general" },
+            { "name": "Yemeklik Yağ ve Katı Yağ (katılaşmış)", "bin": "Restmüll", "recyclable": false, "notes": "Katılaştırın ve bir kapta mühürleyin. Gidere dökmeyin.", "keywords": ["yağ", "katı yağ"], "visual": "general" },
+            { "name": "Yağlı Pizza Kutusu", "bin": "Restmüll", "recyclable": false, "notes": "Yağ ve yemek artıkları kağıt geri dönüşümünü kirletir. Temiz kısımlar kağıt kutusuna atılabilir.", "keywords": ["pizza kutusu", "karton", "yağlı"], "visual": "general" },
+            { "name": "Su Filtresi Kartuşları", "bin": "Restmüll", "recyclable": false, "notes": "Bazı üreticilerin geri alma programları vardır, aksi takdirde genel atıktır.", "keywords": ["brita", "su filtresi"], "visual": "general" },
+            { "name": "Alüminyum Folyo ve Tepsiler (temiz)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Yemek artıklarından arındırılmış olmalıdır. Top haline getirin.", "keywords": ["alüminyum folyo", "folyo", "tepsi", "alüminyum"], "visual": "packaging" },
+            { "name": "Şişe Kapakları (metal)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["kapak", "metal", "bira"], "visual": "packaging" },
+            { "name": "Şekerleme Ambalajları", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["tatlı", "ambalaj"], "visual": "packaging" },
+            { "name": "Kahve Kapsülleri (Plastik veya Alüminyum)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Önce üreticinin geri alma programı olup olmadığını kontrol edin.", "keywords": ["kahve podu", "kapsül", "nespresso"], "visual": "packaging" },
+            { "name": "Konserve Kutuları (gıda, evcil hayvan maması)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["konserve", "kutu", "ton balığı", "çorba"], "notes": "Boşaltılmış ve tercihen durulanmış.", "visual": "packaging" },
+            { "name": "Süt/Meyve Suyu Kutuları (Tetra Pak)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["tetrapak", "süt kutusu", "meyve suyu kutusu"], "visual": "packaging" },
+            { "name": "Plastik Şişeler (depozitosuz: yağ, ketçap)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Depozitolu şişeler (Pfandflaschen) mağazaya iade edilmelidir.", "keywords": ["plastik şişe", "ketçap", "yağ"], "visual": "packaging" },
+            { "name": "Yoğurt Kapları", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Boş olduğundan emin olun. Durulama kokuyu önlemeye yardımcı olur.", "keywords": ["yoğurt", "puding", "kap", "plastik"], "visual": "packaging" }
+        ],
+        "Kağıt ve Ambalaj": [
+            { "name": "Reklamlar (istenmeyen posta)", "bin": "Papiertonne", "recyclable": true, "keywords": ["istenmeyen posta", "broşür", "el ilanı"], "visual": "paper" },
+            { "name": "Kitaplar (karton kapaklı)", "bin": "Papiertonne", "recyclable": true, "keywords": ["kitap", "karton kapaklı"], "visual": "paper" },
+            { "name": "Karton Kutular (düzleştirilmiş)", "bin": "Papiertonne", "recyclable": true, "keywords": ["ambalaj", "amazon", "paket", "kutu", "karton"], "visual": "paper" },
+            { "name": "Mısır Gevreği Kutuları", "bin": "Papiertonne", "recyclable": true, "notes": "İçindeki plastik poşeti çıkarın (Sarı Torbaya atılır).", "keywords": ["mısır gevreği", "kutu", "karton"], "visual": "paper" },
+            { "name": "Zarflar (pencereli veya penceresiz)", "bin": "Papiertonne", "recyclable": true, "notes": "Küçük plastik pencerenin çıkarılması gerekmez.", "keywords": ["zarf"], "visual": "paper" },
+            { "name": "Dergiler", "bin": "Papiertonne", "recyclable": true, "keywords": ["gazete", "katalog"], "visual": "paper" },
+            { "name": "Gazeteler", "bin": "Papiertonne", "recyclable": true, "keywords": ["gazete"], "visual": "paper" },
+            { "name": "Ofis Kağıdı", "bin": "Papiertonne", "recyclable": true, "keywords": ["fotokopi kağıdı", "yazıcı kağıdı"], "visual": "paper" },
+            { "name": "Kağıt Torbalar", "bin": "Papiertonne", "recyclable": true, "keywords": ["alışveriş torbası", "kağıt poşet"], "visual": "paper" },
+            { "name": "Ambalaj Kağıdı (simsiz/folyosuz)", "bin": "Papiertonne", "recyclable": true, "notes": "Simli, folyolu veya plastik kaplamalı kağıtlar genel atığa atılır.", "keywords": ["hediye paketi"], "visual": "paper" },
+            { "name": "Balonlu Naylon", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["hava yastığı", "ambalaj", "plastik"], "visual": "packaging" },
+            { "name": "Cips Paketleri ve Atıştırmalık Ambalajları", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Bunlar genellikle kompozit malzemelerdir, ancak Sarı Torbaya atılır.", "keywords": ["cips", "atıştırmalık ambalajı", "folyo poşet"], "visual": "packaging" },
+            { "name": "Strafor (ambalajdan)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["polistiren", "eps", "ambalaj"], "visual": "packaging" },
+            { "name": "Ciltli Kitaplar", "bin": "Restmüll", "recyclable": false, "notes": "Kapak ve cilt geri dönüştürülemez. Kağıt sayfaları kağıt kutusu için yırtabilirsiniz.", "keywords": ["kitap", "ciltli"], "visual": "general" },
+            { "name": "Fotoğraflar", "bin": "Restmüll", "recyclable": false, "notes": "Normal kağıtla geri dönüştürülemeyen kaplamalı kağıt.", "keywords": ["fotoğraf"], "visual": "general" },
+            { "name": "Çıkartmalar ve Alt Kağıdı", "bin": "Restmüll", "recyclable": false, "notes": "Hem çıkartma hem de mumlu alt kağıdı geri dönüştürülemez.", "keywords": ["çıkartma", "etiket"], "visual": "general" },
+            { "name": "Yapışkan Bant", "bin": "Restmüll", "recyclable": false, "keywords": ["seloteyp", "koli bandı", "ofis malzemeleri"], "visual": "general" },
+            { "name": "Termal Kağıt Fişler", "bin": "Restmüll", "recyclable": false, "notes": "Normal kağıtla geri dönüştürülmemesi gereken kaplamalı kağıt.", "keywords": ["fiş"], "visual": "general" },
+            { "name": "Duvar Kağıdı (kullanılmış parçalar)", "bin": "Restmüll", "recyclable": false, "keywords": ["dekorasyon", "kendin yap"], "visual": "general" }
+        ],
+        "Ev ve Banyo": [
+            { "name": "Küller (soğuk)", "bin": "Restmüll", "recyclable": false, "keywords": ["şömine", "mangal"], "visual": "general" },
+            { "name": "Islak Mendiller", "bin": "Restmüll", "recyclable": false, "notes": "Plastik içerir ve tuvalete atılmamalıdır.", "keywords": ["ıslak mendil", "bebek"], "visual": "general" },
+            { "name": "Kırık Bardak", "bin": "Restmüll", "recyclable": false, "notes": "Konteyner camından farklı bir erime noktasına sahiptir. Güvenli bir şekilde sarın.", "keywords": ["içki bardağı", "kırık cam", "şarap bardağı"], "visual": "general" },
+            { "name": "Kırık Akkor Ampul", "bin": "Restmüll", "recyclable": false, "notes": "Dikkatlice sarın. Enerji tasarruflu/LED ampuller e-atıktır.", "keywords": ["ampul", "ışık", "akkor"], "visual": "general" },
+            { "name": "Kedi Kumu", "bin": "Restmüll", "recyclable": false, "notes": "Biyolojik olarak parçalanabilir olsa bile asla biyo-kutucuğa koymayın. Güvenli bir şekilde poşetleyin.", "keywords": ["evcil hayvan atığı", "evcil hayvan"], "visual": "general" },
+            { "name": "Sigara İzmaritleri", "bin": "Restmüll", "recyclable": false, "keywords": ["kül", "küllük", "puro"], "visual": "general" },
+            { "name": "Kontakt Lensler", "bin": "Restmüll", "recyclable": false, "keywords": ["tıbbi", "görüş"], "visual": "general" },
+            { "name": "Pamuk Topları ve Pamuklu Çubuklar", "bin": "Restmüll", "recyclable": false, "keywords": ["pamuk", "kulak çubuğu"], "visual": "general" },
+            { "name": "Bebek Bezleri", "bin": "Restmüll", "recyclable": false, "keywords": ["bebek bezi", "bebek", "idrar kaçırma"], "visual": "general" },
+            { "name": "Tek Kullanımlık Tıraş Bıçakları", "bin": "Restmüll", "recyclable": false, "notes": "Atmadan önce güvenlik için sarın.", "keywords": ["tıraş bıçağı", "tıraş"], "visual": "general" },
+            { "name": "Kalemler, İşaretleyiciler, Kurşun Kalemler", "bin": "Restmüll", "recyclable": false, "keywords": ["tükenmez kalem", "işaretleyici", "fosforlu kalem"], "visual": "general" },
+            { "name": "Hijyenik Ürünler", "bin": "Restmüll", "recyclable": false, "keywords": ["hijyenik ped", "tampon"], "visual": "general" },
+            { "name": "Tekstil (giyilemez)", "bin": "Restmüll", "recyclable": false, "notes": "Bezler, tek çoraplar, yırtık giysiler. Giyilebilir giysiler bağışlanmalıdır.", "keywords": ["giysi", "bez", "çorap", "yırtık"], "visual": "general" },
+            { "name": "Mendiller (kullanılmış)", "bin": "Restmüll", "recyclable": false, "notes": "Hijyen nedeniyle bunlar genel atığa atılır.", "keywords": ["mendil", "hasta", "selpak"], "visual": "general" },
+            { "name": "Diş Fırçası (manuel)", "bin": "Restmüll", "recyclable": false, "keywords": ["diş", "ağız hijyeni"], "visual": "general" },
+            { "name": "Elektrikli Süpürge Torbaları ve Tozu", "bin": "Restmüll", "recyclable": false, "keywords": ["süpürge", "toz", "torba"], "visual": "general" },
+            { "name": "Temizlik Maddesi Şişeleri (boş)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["temizleyici", "şişe", "plastik"], "visual": "packaging" },
+            { "name": "Deodorant Stick/Roll-on (boş plastik)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["deo", "roll-on", "stick"], "visual": "packaging" },
+            { "name": "Saç Spreyi Kutuları (boş)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["aerosol", "saç bakımı"], "visual": "packaging" },
+            { "name": "Şampuan Şişeleri (boş)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["şampuan", "duş jeli", "şişe"], "visual": "packaging" },
+            { "name": "Diş Macunu Tüpleri (boş)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Mümkün olduğunca boş olduğundan emin olun.", "keywords": ["diş macunu", "tüp", "diş"], "visual": "packaging" }
+        ],
+        "Özel ve Elektronik Atık": [
+            { "name": "Piller (Alkalin, Şarj Edilebilir)", "bin": "Elektroschrott", "recyclable": true, "notes": "Mağazalardaki veya geri dönüşüm merkezlerindeki toplama kutularına iade edin. EV ATIKLARINA ATMAYIN.", "keywords": ["pil", "alkalin", "şarj edilebilir", "lityum"], "visual": "electronics" },
+            { "name": "Kablolar ve Şarj Cihazları", "bin": "Elektroschrott", "recyclable": true, "keywords": ["kablo", "şarj cihazı", "usb", "güç kablosu"], "visual": "electronics" },
+            { "name": "CD'ler, DVD'ler ve Blu-ray'ler", "bin": "Elektroschrott", "recyclable": true, "notes": "Birçok geri dönüşüm merkezinde bunlar için ayrı toplama kutuları bulunur.", "keywords": ["cd", "dvd", "disk", "medya"], "visual": "electronics" },
+            { "name": "Cep Telefonları / Mobil Telefonlar", "bin": "Elektroschrott", "recyclable": true, "notes": "Bir geri dönüşüm merkezinde (Wertstoffhof) veya katılımcı elektronik mağazalarında atın.", "keywords": ["cep telefonu", "akıllı telefon", "mobil"], "visual": "electronics" },
+            { "name": "Bilgisayarlar (Masaüstü ve Dizüstü)", "bin": "Elektroschrott", "recyclable": true, "keywords": ["pc", "dizüstü", "bilgisayar"], "visual": "electronics" },
+            { "name": "E-Sigaralar ve Vapeler", "bin": "Elektroschrott", "recyclable": true, "notes": "Pil ve elektronik içerir, e-atık olarak atılmalıdır.", "keywords": ["vape", "e-sigara", "elf bar"], "visual": "electronics" },
+            { "name": "Elektrikli Diş Fırçası", "bin": "Elektroschrott", "recyclable": true, "notes": "Taban ünitesi e-atıktır. Fırça başlığı genel atıktır.", "keywords": ["diş fırçası", "elektrikli", "ağız hijyeni"], "visual": "electronics" },
+            { "name": "Enerji Tasarruflu Ampuller (CFL) ve LED'ler", "bin": "Elektroschrott", "recyclable": true, "notes": "CFL'ler cıva içerir ve özel/e-atık olarak atılmalıdır. Kırmayın.", "keywords": ["cfl", "led", "lamba", "ışık", "ampul", "enerji tasarrufu"], "visual": "electronics" },
+            { "name": "Kulaklıklar", "bin": "Elektroschrott", "recyclable": true, "keywords": ["kulaklık", "airpods", "ses"], "visual": "electronics" },
+            { "name": "Mürekkep ve Toner Kartuşları", "bin": "Elektroschrott", "recyclable": true, "notes": "Birçok mağaza ve üretici geri alma programları sunar. Aksi takdirde, bir geri dönüşüm merkezine götürün.", "keywords": ["mürekkep", "toner", "yazıcı", "kartuş"], "visual": "electronics" },
+            { "name": "Büyük Ev Aletleri", "bin": "Elektroschrott", "recyclable": true, "notes": "Buzdolapları, çamaşır makineleri, fırınlar. Hacimli atık (Sperrmüll) olarak toplanır veya bir geri dönüşüm merkezine götürülür.", "keywords": ["buzdolabı", "çamaşır makinesi", "fırın", "beyaz eşya"], "visual": "electronics" },
+            { "name": "Eski İlaçlar", "bin": "Elektroschrott", "recyclable": false, "keywords": ["ilaç", "hap", "farmasötik", "şurup"], "notes": "Tehlikeli atık olarak kabul edilir. Bir eczaneye iade edin veya tehlikeli atık toplama noktasında atın. Sifonu çekmeyin!", "visual": "electronics" },
+            { "name": "Boya Kutuları (sıvı boya ile)", "bin": "Elektroschrott", "recyclable": false, "notes": "Sıvı boya tehlikeli atıktır. Bir geri dönüşüm merkezine götürün. Tamamen kurumuş boya genel atığa atılabilir.", "keywords": ["boya", "kutu", "vernik"], "visual": "electronics" },
+            { "name": "Küçük Ev Aletleri (kettle, tost makinesi)", "bin": "Elektroschrott", "recyclable": true, "keywords": ["alet", "mutfak", "saç kurutma makinesi"], "visual": "electronics" },
+            { "name": "Şırıngalar ve İğneler", "bin": "Elektroschrott", "recyclable": false, "notes": "Delinmez bir kesici alet kabında atılmalıdır. Yerel eczanelere veya doktor muayenehanelerine atma konusunda danışın.", "keywords": ["iğne", "şırınga", "kesiciler", "tıbbi"], "visual": "electronics" }
+        ],
+        "Bahçe ve Dış Mekan": [
+            { "name": "Hayvan Yataklığı (otçullar)", "bin": "Biotonne", "recyclable": true, "notes": "Saman, ot veya tavşan, kobay vb. yataklığı.", "keywords": ["yataklık", "saman", "ot", "tavşan", "evcil hayvan"], "visual": "bio" },
+            { "name": "Dallar (küçük)", "bin": "Biotonne", "recyclable": true, "notes": "Bir bilekten daha kalın olmamalıdır.", "keywords": ["ağaç", "odun", "budama"], "visual": "bio" },
+            { "name": "Kesme Çiçekler", "bin": "Biotonne", "recyclable": true, "keywords": ["çiçek", "buket"], "visual": "bio" },
+            { "name": "Çim Kırpıntıları", "bin": "Biotonne", "recyclable": true, "keywords": ["çim", "çimen", "kırpıntı", "biçme"], "visual": "bio" },
+            { "name": "Yapraklar", "bin": "Biotonne", "recyclable": true, "keywords": ["ağaç", "yaprak"], "visual": "bio" },
+            { "name": "Saksı Toprağı (eski)", "bin": "Biotonne", "recyclable": true, "keywords": ["toprak", "kir", "saksı karışımı"], "visual": "bio" },
+            { "name": "Yabani Otlar", "bin": "Biotonne", "recyclable": true, "keywords": ["yabani ot", "bahçe"], "visual": "bio" },
+            { "name": "Çiçek Saksıları (plastik, satın alımdan)", "bin": "Gelber Sack / Tonne", "recyclable": true, "keywords": ["çiçek saksısı", "plastik", "fidanlık saksısı", "bitki saksısı"], "visual": "packaging" },
+            { "name": "Toprak veya Gübre Torbaları (boş)", "bin": "Gelber Sack / Tonne", "recyclable": true, "notes": "Boş olmalıdır.", "keywords": ["toprak torbası", "gübre torbası", "kompost torbası", "plastik"], "visual": "packaging" },
+            { "name": "Hayvan Dışkısı (poşette)", "bin": "Restmüll", "recyclable": false, "keywords": ["köpek kakası", "atık"], "visual": "general" },
+            { "name": "Mangal Kömürü (soğuk)", "bin": "Restmüll", "recyclable": false, "keywords": ["mangal", "barbekü", "kül"], "visual": "general" },
+            { "name": "Kil/Terrakota Saksı (kırık)", "bin": "Restmüll", "recyclable": false, "notes": "Büyük miktarlarda, bir geri dönüşüm merkezinde moloz olarak atın.", "keywords": ["terrakota", "saksı", "seramik", "kırık"], "visual": "general" },
+            { "name": "Bahçe Hortumu (kırık)", "bin": "Restmüll", "recyclable": false, "keywords": ["hortum", "sulama"], "visual": "general" },
+            { "name": "İşlenmiş veya Boyalı Ahşap", "bin": "Sperrmüll", "recyclable": false, "notes": "Küçük parçalar genel atığa atılabilir, ancak daha büyük parçalar hacimli veya tehlikeli atıktır.", "keywords": ["işlenmiş ahşap", "boyalı ahşap", "çit direği"], "visual": "bulky" },
+            { "name": "Bisiklet (kırık)", "bin": "Sperrmüll", "recyclable": true, "notes": "Önce bağışlamayı veya satmayı düşünün. Aksi takdirde, hacimli atıktır.", "keywords": ["bisiklet"], "visual": "bulky" },
+            { "name": "Bahçe Mobilyaları", "bin": "Sperrmüll", "recyclable": true, "keywords": ["veranda", "sandalye", "masa"], "visual": "bulky" }
+        ],
+        "Cam ve Hacimli Atık": [
+            { "name": "Bira Şişeleri (cam, depozitosuz)", "bin": "Glascontainer", "recyclable": true, "keywords": ["şarap şişesi", "bira şişesi", "cam şişe"], "notes": "Renge göre ayırın. Depozitolu şişeler mağazaya geri döner.", "visual": "glass" },
+            { "name": "Kozmetik Kavanozları (cam krem kapları)", "bin": "Glascontainer", "recyclable": true, "notes": "Boş krem kavanozları, fondöten şişeleri vb.", "keywords": ["kozmetik", "krem kavanozu", "fondöten"], "visual": "glass" },
+            { "name": "Gıda Kavanozları (reçel, turşu, sos)", "bin": "Glascontainer", "recyclable": true, "notes": "Boş ve durulanmış. Kapaklar Sarı Torbaya atılır. Renge göre ayırın.", "keywords": ["kavanoz", "reçel kavanozu", "sos kavanozu", "turşu kavanozu"], "visual": "glass" },
+            { "name": "Parfüm ve Kolonya Şişeleri (cam)", "bin": "Glascontainer", "recyclable": true, "notes": "Boş olmalıdır. Plastik kapaklar Sarı Torbaya atılır.", "keywords": ["parfüm", "kolonya", "flakon", "tıraş losyonu"], "visual": "glass" },
+            { "name": "Şarap Şişeleri", "bin": "Glascontainer", "recyclable": true, "keywords": ["şarap şişesi", "bira şişesi", "cam şişe"], "notes": "Renge göre ayırın (şeffaf, yeşil, kahverengi). Kapaklar Sarı Torbaya atılır. Mavi cam yeşil camla birlikte atılır.", "visual": "glass" },
+            { "name": "Koltuk", "bin": "Sperrmüll", "recyclable": true, "keywords": ["kanepe", "koltuk", "mobilya"], "visual": "bulky" },
+            { "name": "Yatak Çerçevesi ve Latası", "bin": "Sperrmüll", "recyclable": true, "keywords": ["karyola", "lata", "başlık", "mobilya"], "visual": "bulky" },
+            { "name": "Halı ve Kilimler", "bin": "Sperrmüll", "recyclable": false, "keywords": ["kilim", "döşeme"], "notes": "Hacimli atık olarak kabul edilir. Toplama için randevu alın veya bir geri dönüşüm merkezine götürün.", "visual": "bulky" },
+            { "name": "Mobilya (herhangi bir büyük parça)", "bin": "Sperrmüll", "recyclable": true, "keywords": ["sandalye", "raf", "masa", "dolap", "gardırop", "çalışma masası"], "notes": "Yerel atık hizmetinizle bir toplama ayarlayın veya bir geri dönüşüm merkezine götürün.", "visual": "bulky" },
+            { "name": "Büyük Ev Aletleri (buzdolabı, çamaşır makinesi)", "bin": "Sperrmüll", "recyclable": true, "notes": "Bunlar e-atıktır, ancak genellikle hacimli atık olarak toplanır. Yerel kuralları kontrol edin.", "keywords": ["buzdolabı", "çamaşır makinesi", "fırın", "beyaz eşya", "bulaşık makinesi"], "visual": "electronics" },
+            { "name": "Yatak", "bin": "Sperrmüll", "recyclable": true, "notes": "Hacimli atık toplama için randevu alın veya bir geri dönüşüm merkezine götürün.", "keywords": ["yatak"], "visual": "bulky" },
+            { "name": "Ayna", "bin": "Sperrmüll", "recyclable": false, "notes": "Aynalar konteyner camıyla geri dönüştürülemez. Hacimli atık olarak veya küçükse genel atık olarak atın.", "keywords": ["ayna"], "visual": "bulky" },
+            { "name": "Valizler ve Büyük Çantalar", "bin": "Sperrmüll", "recyclable": false, "keywords": ["valiz", "bagaj", "çanta"], "visual": "bulky" },
+            { "name": "Pencere Camı (kırık düz cam)", "bin": "Sperrmüll", "recyclable": false, "notes": "Bu düz camdır, konteyner camı değil. Hacimli/inşaat atığı olarak atılmalıdır.", "keywords": ["pencere", "düz cam"], "visual": "bulky" },
+            { "name": "Fırına Dayanıklı Cam Kap (Pyrex)", "bin": "Restmüll", "recyclable": false, "notes": "Konteyner camından farklı bir erime noktasına sahiptir.", "keywords": ["pyrex", "güveç kabı", "fırın kabı"], "visual": "general" }
+        ]
+    },
+    "knowledge_base": [
+        {
+            "title": "Yakındaki Bırakma Noktalarını Bul",
+            "image": "locations",
+            "subCategories": [
+              {
+                "title": "Konumları Bul",
+                "type": "location",
+                "articles": [
+                  { "title": "Cam Konteynerlerini Bul", "iconKey": "Trash2", "content": ["Depozitosuz şişeler ve kavanozlar için, renge göre ayrılmış."], "mapQuery": "Yakındaki cam konteyneri" },
+                  { "title": "E-Atık Toplama Noktalarını Bul", "iconKey": "Zap", "content": ["Eski elektronikler, piller ve ev aletleri için."], "mapQuery": "Yakındaki e-atık geri dönüşüm merkezi" },
+                  { "title": "Giysi Bağış Kumbaralarını Bul", "iconKey": "ShoppingBag", "content": ["Giyilebilir giysiler ve ayakkabılar için."], "mapQuery": "Yakındaki giysi bağış kumbarası" },
+                  { "title": "Depozito İade Noktalarını Bul", "iconKey": "Home", "content": ["Depozitolu şişeleri (Pfand sistemi) çoğu süpermarkette iade edin."], "mapQuery": "Yakındaki depozito iade otomatı olan süpermarket" }
+                ]
+              }
+            ]
+        },
+        {
+            "title": "Atık İmha Kılavuzları",
+            "image": "bins",
+            "subCategories": [
+                {
+                    "title": "Özel Atık",
+                    "type": "accordion",
+                    "articles": [
+                        { "title": "E-Atık", "iconKey": "Zap", "content": ["Fişli veya pilli her cihaz e-atıktır.", "Bunları elektronik mağazalarına veya bir geri dönüşüm merkezine (Wertstoffhof) iade edin.", "Buna telefonlar, dizüstü bilgisayarlar, su ısıtıcıları ve hatta elektrikli diş fırçaları dahildir."] },
+                        { "title": "Tehlikeli Atık (Schadstoffe)", "iconKey": "FlaskConical", "content": ["Sıvı boya, kimyasallar, böcek ilaçları ve cıvalı termometreleri içerir.", "Tehlikeli atık toplama aracına (Schadstoffmobil) veya geri dönüşüm merkezine götürülmelidir.", "Asla gidere dökmeyin veya ev çöp kutularına atmayın."] },
+                        { "title": "İlaç İmhası", "iconKey": "Stethoscope", "content": ["Eski haplar ve sıvılar tehlikeli atıktır.", "Güvenli imha için bir eczaneye iade edin.", "Tuvalete atmayın."] },
+                        { "title": "Hacimli Atık (Sperrmüll)", "iconKey": "Sofa", "content": ["Mobilya, halı ve yatak gibi çöp kutunuza sığmayacak kadar büyük eşyalar.", "Yerel belediyenizle bir toplama ayarlayın veya bir geri dönüşüm merkezine götürün.", "E-atık ve inşaat molozu genellikle ayrı olarak ele alınır."] }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "İpuçları ve Bilgiler",
+            "image": "sustainability",
+            "subCategories": [
+                {
+                    "title": "Atık Azaltma İpuçları",
+                    "type": "accordion",
+                    "articles": [
+                      { "title": "Azalt ve Tekrar Kullan", "iconKey": "Recycle", "content": ["Yeniden kullanılabilir alışveriş torbaları, kahve fincanları ve su şişeleri kullanın.", "Minimum ambalajlı ürünler satın alın.", "Eşyaları değiştirmek yerine onarın."] }
+                    ]
+                },
+                {
+                    "title": "Almanya'da Geri Dönüşüm Hakkında Gerçekler",
+                    "type": "accordion",
+                    "articles": [
+                        { "title": "Yeşil Nokta (Der Grüne Punkt)", "iconKey": "Package", "content": ["Bu sembol, üreticinin ambalaj geri dönüşüm maliyetine katkıda bulunduğunu gösterir.", "Bu, ürünün geri dönüştürülebilir olduğu anlamına gelmez, ancak bu sembole sahip çoğu ürün geri dönüştürülebilirdir."] },
+                        { "title": "Depozito Sistemi (Pfand)", "iconKey": "Droplets", "content": ["Almanya, içecek kapları için çok etkili bir depozito iade (Pfand) sistemine sahiptir.", "Depozitonuzu geri almak için bir süpermarketteki bir iade otomatına iade edin."] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

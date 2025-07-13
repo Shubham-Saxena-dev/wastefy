@@ -1,0 +1,46 @@
+
+{
+  "short_name": "Wastefy",
+  "name": "Wastefy",
+  "description": "Your smart guide to recycling. Features a bin guide, pickup schedules, a knowledge base recycling assistant.",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#047857",
+  "background_color": "#f9fafb",
+  "shortcuts": [
+    {
+      "name": "Bin Guide",
+      "short_name": "Guide",
+      "description": "Search for how to recycle an item",
+      "url": "/?tab=Home"
+    },
+    {
+      "name": "Pickup Schedule",
+      "short_name": "Pickup",
+      "description": "Find local pickup services",
+      "url": "/?tab=Schedule"
+    },
+    {
+      "name": "Learn More",
+      "short_name": "Learn",
+      "description": "Read guides and tips about recycling",
+      "url": "/?tab=Knowledge"
+    }
+  ]
+}
